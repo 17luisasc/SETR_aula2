@@ -1,0 +1,51 @@
+/** @file vAvg.h
+ * @brief vAvg is a function that calculates the average 
+ * of the values of a vector. 
+ *
+ * vAvg is a function that returns the average of the values of
+ * an array "values2".
+ * The function gets the sum value from the exterior and the "values" array,
+ * but it calculates the size of the array internally.
+ * Then with sum value and the size of the array it calculates the average. 
+ * Finally, it returns the avertage value and it prints it in the terminal. 
+ * 
+ * 
+ * @author Ana Luísa Coelho
+ * @date 21 March 2022
+ * @bug No known bugs yet.
+ */
+
+/**
+* This is vAvg.h
+* Version is: 2 
+*/ 
+
+#ifndef _VAVG_H
+#define _VAVG_H
+
+/**
+ * @brief Brief decription of function1 prototype.
+ *
+ * Here it goes the long description of fucntion 1.
+ * Description of what the function does. Usually this part describes 
+ * whatr the fiunction does and its interface, namelly input 
+ * arguments and return value.
+ * Verbatim text can also be used:
+ * @verbatim 
+ * This is my email:luisasc@ua.pt
+ * @endverbatim
+ * You can also include an example of usage:
+ * @code
+ * res = function1(param1, param2);
+ * printf("res=%d\n",res);
+ * @endcode
+ * You can use HTML tags e.g. to make <b>bold text</b>
+ * @param *values  This parameter is an array filled with integers.
+ * @param sum      The sum parameter is an integers which 
+ * olds the sum of the array values.
+ * @return         This function returns the average of the values of the array values 
+ */
+
+int vAvg(int *values, int sum);
+#endif
+
